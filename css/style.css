@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|UnifrakturCook:700');
+body{
+font-size: 16px;
+font-family:'Lobster',sans-serif;
+width: 900px;
+margin: 0 auto;
+margin-top: 80px;
+background-image: url("../images/ocean.jpg");
+background-size: cover;
+}
+
+h1,h2,h3,h4{
+  font-family: 'UnifrakturCook',sans-serif;
+}
+
+ul{
+  list-style-image: url("../images/skull.png");
+}
+#myths h2{
+  margin-bottom: 0;
+}
+#myths p{
+  background: #000;
+   color: #000;
+   margin-top: 0;
+}
+#myths p:hover{
+  color: #FFF;
+  cursor: default;
+}
+
+header{
+  float: left;
+  width: 430px;
+}
+
+#table-of-contents nav{
+  float: right;
+  width: 430px;
+  text-align: center;
+}
+
+#table-of-contents li{
+  font-size: 25px
+}
+#table-of-contents h2{
+  font-size: 30px;
+}
+
+.pull-quote {
+    font-size: 25px;
+    font-family: 'Lobster', serif;
+    font-style: italic;
+    border-top: dotted 1px #000;
+    border-bottom: dotted 1px #000;
+    width: 30%;
+    float: right;
+}
+.sticky{
+  background: rgba(102,51,153, .8);
+        padding: 10px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+}
+.sticky li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a:link{
+  color: rgba(255, 255, 0, 1);
+}
+
+a:visited{
+  color: rgba(0,150,0,1);
+}
